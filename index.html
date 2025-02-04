@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- UMD版 jsPDF 読み込み -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+    <script>
+      // UMD 版を使用する場合に必要
+      const { jsPDF } = window.jspdf;
+    </script>
+</head>
+<body>
+    <canvas id="myChart"></canvas>
+    <button id="downloadPdfBtn">Download PDF</button>
+    <div>
+        <span id="hValue"></span>
+    </div>
+    <button id="playButton">再生</button>
+    <script src="1.js"></script>
+</body>
+</html>
